@@ -1,0 +1,67 @@
+<!-- 
+    Passo 1: Estrutura HTML
+    Primeiro, crie a estrutura básica do menu usando uma lista não ordenada (<ul>) e elementos de lista (<li>). Adicione um link (<a>) dentro de cada elemento de lista para criar os itens do menu. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Menu CSS</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+
+          <li>
+            <a href="#">Sobre</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="inicio">
+        <h1>Bem-vindo ao nosso site!</h1>
+
+        <img src="./imgs/woman.png" alt="Uma mulher" />
+      </div>
+
+      <div class="galeria">
+        <h2>Geleria</h2>
+
+        <div class="post">
+          <img src="./imgs/house.png" alt="" />
+          <p>Uma imagem de uma casa flutuando</p>
+        </div>
+
+        <div class="post">
+          <img src="./imgs/man.png" alt="" />
+          <p>Uma imagem de uma homem</p>
+        </div>
+
+        <div class="post">
+          <img src="./imgs/robot.jpg" alt="" />
+          <p>Uma imagem de uma robô</p>
+        </div>
+      </div>
+    </main>
+
+    <div class="main"></div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  list-style-type: none;
+  background-color: #113e66;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  display: block;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.menu a:hover {
+  background-color: #dd490f;
+}
+
+/* INICIO */
+.inicio {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.inicio img {
+  width: 500px;
+}
+
+.galeria {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.galeria h2 {
+  margin-bottom: 10px;
+}
+
+.post {
+  background-color: #6797c1;
+  font-size: 10px;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.post img {
+  width: 200px;
+  height: 110px;
+}
+
+.post:hover {
+  background-color: #dd490f;
+  color: #ffffff;
+}
+
+/* Remova a margem e o preenchimento padrão dos elementos e defina o box-sizing como border-box:
+Estilize a lista do menu, removendo a lista de marcadores e definindo a exibição como inline-block para que os itens do menu fiquem na horizonta */
+/* alinhar imagens */
