@@ -1,0 +1,96 @@
+/* Começaremos definindo para 0 os valores de margin e 
+padding de todos os elementos. Isso é importante para que 
+não haja espaçamento entre os elementos e que não haja margens indesejadas. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definimos a fonte padrão para Arial, Helvetica e sans-serif. */
+/* Essa ação mudara o tipo de fonte do site. Assim como fazemos em outros editores de texto */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  /* Ao usar min-height: 100vh, estamos dizendo que a altura 
+  mínima do elemento será igual a altura da tela. */
+  position: relative;
+  padding-bottom: 50px; /* Altura do rodapé */
+}
+
+/* Agora vamos definir a cor de fundo do cabeçalho
+cor da fonte e o espaçamento entre os elementos do cabeçalho. */
+.cabecalho {
+  background-color: #0e5a76;
+  color: #fff;
+}
+
+/* Removeremos o estilo padrão de listas do menu.'*' */
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Para que os intens do menu fiquem um ao lado do outro, 
+vamos definir a propriedade display como inline-block. 
+Além disso, vamos definir a cor de fundo, 
+a cor da fonte, o espaçamento e a margem entre os itens 
+do menu. */
+
+.menu li {
+  display: inline-block;
+
+  color: #fff;
+}
+/* Obs.: experimente remover a propriedade display: inline-block;
+ou altere para block */
+/* Lembrando que o temos três propriedades display: inline-block, block e inline;
+inline-block: coloca os elementos um ao lado do outro;
+block: coloca os elementos um abaixo do outro;
+inline: coloca os elementos um ao lado do outro, mas não quebra a linha; */
+
+/* Vamso remover a formatação padrão dos links. */
+/* E adicionar uma cor */
+/* OBS.: Por padrão os links são do tipo inline, 
+então a prorpiedade margin não funciona. 
+Por isso vamos definir como block. */
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 8px 16px;
+  margin: 8px;
+  background: #14deaf;
+  border-radius: 5px;
+}
+
+.menu li a:hover {
+  background-color: #fff;
+  color: #2ea8d4;
+}
+
+/** Sua tarefa é organizar as seções */
+main {
+}
+
+.secao-pincipal {
+}
+
+.secao-galeria {
+}
+
+/** Rodapé */
+footer {
+  background-color: #0e5a76;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  /* assuntos futuros*/
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

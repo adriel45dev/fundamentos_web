@@ -1,0 +1,73 @@
+<!-- SITE EXEMPLO COM MENU E RODAPÉ
+BY ADRIEL ALVES -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Essa é a referência para o arquivo CSS -->
+    <!-- Lembre-se de que o arquivo CSS deve estar na mesma pasta que o HTML
+    e que no href você deve colocar o nome do arquivo CSS que você criou -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Site Exemplo</title>
+  </head>
+  <body>
+    <!-- Aqui temos o cabeçalho do site, representado pela tag <header> -->
+    <header class="cabecalho">
+      <!-- Criaremos o nosso menu dentro da tag nav -->
+      <nav class="menu">
+        <!-- Organização do menu dentro de uma lista <ul> -->
+        <ul>
+          <!-- Cada item do menu será uma tag <li> -->
+          <!-- Dentro de cada <li> teremos um link <a> -->
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Sobre</a>
+          </li>
+          <li>
+            <a href="#">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Essa é a seção principal do site, representada pela tag <main> -->
+    <main>
+      <!-- Podemos organizar o conteúdo da página em seções, como por exemplo: -->
+      <section class="secao-principal">
+        <!-- Aqui podemos colocar o conteúdo da seção -->
+        <h1>Seção 1</h1>
+        <p>Conteudo da seção 1.</p>
+      </section>
+
+      <section class="secao-galeria">
+        <!-- Aqui podemos colocar o conteúdo da seção -->
+        <h1>Galeria</h1>
+
+        <!-- Aqui podemos criar uma galeria de imagens -->
+        <div class="fotos">
+          <img src="https://picsum.photos/seed/picsum/200/300" alt="Imagem 1" />
+          <img src="https://picsum.photos/seed/picsum/200/300" alt="Imagem 2" />
+          <img src="https://picsum.photos/seed/picsum/200/300" alt="Imagem 3" />
+          <img src="https://picsum.photos/seed/picsum/200/300" alt="Imagem 4" />
+          <img src="https://picsum.photos/seed/picsum/200/300" alt="Imagem 5" />
+          <img src="https://picsum.photos/seed/picsum/200/300" alt="Imagem 6" />
+        </div>
+        <!-- Aqui eu utilizei links para imagens aleatórias do site https://picsum.photos/
+        mas você pode utilizar imagens que você mesmo tenha. Basta colocar o caminho
+        da imagem no atributo src da tag <img>. Salve as iamgens na mesma pasta que
+        o arquivo HTML e utilize o nome do arquivo como referência. Lembre-se de colocar
+        a extensão do arquivo. Exemplo: <img src="imagem.jpg" alt="Imagem 1" /> -->
+      </section>
+    </main>
+
+    <!-- Essa é a seção de rodapé do site, representada pela tag <footer> -->
+    <footer>
+      <!-- Aqui podemos colocar o conteúdo do rodapé -->
+      <p>Esse é o rodapé do site. Criado por Adriel Alves</p>
+    </footer>
+  </body>
+</html>
